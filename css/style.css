@@ -1,0 +1,234 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url(../photo/bg-masthead.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header .logo h1{
+    color: rgb(218, 216, 216);
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+}
+.header .bigMenu{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .bigMenu .menu ul{
+    display: flex;
+    list-style: none;
+}
+
+.header .bigMenu .menu ul li a{
+    padding: 8px;
+    text-decoration: none;
+    font-family: 'Varela Round', sans-serif;
+    display: block;
+    color: rgb(207, 205, 205);
+}
+
+.header .headerText{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.header .headerText h1{
+    font-size: 6.5rem;
+    line-height: 6.5rem;
+    letter-spacing: 0.8rem;
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+    -webkit-text-fill-color: transparent;
+    font-family: 'Varela Round', sans-serif;
+    -webkit-background-clip: text;
+    font-weight: 500;
+    letter-spacing: 20px;
+}
+
+.header .headerText p{
+    width: 60%;
+    margin: auto;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1.55rem;
+    color: rgb(196, 196, 196);
+    margin-bottom: 50px;
+}
+
+.header .headerText a{
+    padding: 25px 30px;
+    background-color: lightseagreen;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    letter-spacing: 5px;
+    transition: 0.2s ease-in-out;
+    border-radius: 4px;
+}
+
+.header .headerText a:hover{
+    background-color:rgb(17, 94, 90) ;
+}
+
+.iphone{
+    width: 100%;
+    height: 85vh;
+    background-color: black;
+    position: relative;
+    text-align: center;
+}
+
+.iphone .ipad h1{
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+
+.iphone .ipad p{
+    color: rgb(131, 128, 128);
+    font-family: 'Varela Round', sans-serif;
+}
+
+.ipad .tablet{
+    position: absolute;
+    top: 33%;
+}
+
+.ipad .tablet img{
+    width: 100%;
+}
+
+.shor{
+    width: 100%;
+    height: 150vh;
+    margin: auto;
+}
+
+.shor .twice{
+    width: 80%;
+    height: 70vh;
+    margin: 90px auto;
+    display: flex;
+}
+
+.shor .twice .picture{
+    width: 60%;
+    height: 68vh;
+}
+
+.shor .twice .picture img{
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.shor .twice .text{
+    width: 40%;
+    height: 68vh;
+    padding-top: 28vh;
+    text-align: center;
+}
+
+.shor .twice .text h4{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 25px;
+}
+
+.shor .twice .text p{
+    font-family: 'Varela Round', sans-serif;
+    
+}
+
+.shor .twiceTwo{
+   width: 80%;
+   height: 60vh;
+   margin: 10vh auto;
+   display: flex;
+}
+
+.shor .twiceTwo .pictureTwo{
+    width: 50%;
+    height: 58vh;
+}
+
+.shor .twiceTwo .pictureTwo img{
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.shor .twiceTwo .textTwo{
+    width: 50%;
+    height: 57.5vh;
+    color: white;
+    text-align: center;
+    padding-top: 13%;
+    background-color: black;
+}
+
+.shor .twiceTwo .textTwo h4{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 25px;
+}
+
+.shor .twiceTwo .textTwo p{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 15px;
+    padding: 0 30px;
+    color: rgb(104, 104, 104);
+}
+
+.shor .twiceOne{
+    width: 80%;
+    height: 60vh;
+    margin: 0 auto;
+    display: flex;
+}
+
+.shor .textOne{
+    width: 50%;
+    height: 57.5vh;
+    color: white;
+    text-align: center;
+    padding-top: 13%;
+    background-color: black;
+}
+
+.shor .twiceOne .pictureOne{
+    width: 50%;
+    height: 58vh;
+}
+
+.shor .twiceOne .pictureOne img{
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.shor .twiceOne .textOne h4{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 25px;
+}
+
+.shor .twiceOne .textOne p{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 15px;
+    padding: 0 30px;
+    color: rgb(104, 104, 104);
+}
